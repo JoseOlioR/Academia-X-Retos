@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML con Formularios</title>
+    <link rel="icon" href="formulario.png" type="image/png">
+</head>
+
+<body>
+    <h1>Formularios en HTML</h1>
+    <H2>Datos Personales</H2>
+
+    <form method="post">
+        <label for="name">Nombre:</label>
+        <input id="name" name="name" value="Jose" required>
+        <br>
+
+        <label>
+            Email
+            <input name="email" type="email" required placeholder="Ejemplo01@gmail.com"/>
+        </label>
+        <br>
+        <label for="Telefono">Telefono:</label>
+        <input id="Telefono" name="Telefono" type="tel" placeholder="Numero de telefono"/>
+        
+
+        <h2>Género</h2>
+        <input id="Masculino" type="radio" value="Masculino" name="Lista">
+        <label for="Masculino">Masculino</label>
+        <br>
+        <input id="Femenino" type="radio" value="Femenino" name="Lista">
+        <label for="Femenino">Femenino</label>
+        <br>
+        <input id="Otro" type="radio" value="Otro" name="Lista">
+        <label for="Otro">Otro</label>
+        <br>
+        
+        <h2>Preferencias</h2>
+        <input id="Música" type="checkbox" value="Música" name="Lista">
+        <label for="Música">Música</label>
+        <br>
+        <input id="Deportes" type="checkbox" value="Deportes" name="Lista">
+        <label for="Deportes">Deportes</label>
+        <br>
+        <input id="Lectura" type="checkbox" value="Lectura" name="Lista">
+        <label for="Lectura">Lectura</label>
+        <br>
+
+        <h2>Comentarios</h2>
+        <textarea cols="40" rows="10"></textarea>
+        <br>
+        <button>Enviar</button>
+        
+    </form>
+
+</body>
+</html>
